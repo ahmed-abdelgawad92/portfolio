@@ -1,0 +1,220 @@
+@font-face{
+	font-family: slabo;
+	src:url("../../fonts/Slabo/Slabo.ttf");
+}
+body{
+	font-family: slabo;
+}
+.navbar-brand{
+	line-height: 45px;
+	height: 80px;
+	font-size: 28px;
+}
+.navbar{
+	min-height: 80px;
+	border: 0;
+	border-radius: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+.navbar-nav>li>a{
+	line-height: 45px;
+}
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #777;
+}
+.navbar-default .navbar-nav>li>a.selected-item{
+	color: #618a5a;
+}
+.navbar-default{
+	border:0;
+	background: #232323;
+}
+.navbar-default .navbar-brand{
+	color: white;
+}
+.navbar-default .navbar-brand span{
+	color: #777;
+	border-left: 1px solid #777;
+    padding-left: 10px;
+    font-size: 12px;
+    vertical-align: top;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.carousel {
+	margin-top: 80px;
+	background: #71ad69;
+	overflow: hidden;
+
+}
+/*------------------SECTION-------------------*/
+section.odd{
+	background: #f5f5f5;
+
+}
+section.odd>div.container>div{
+	padding :40px 0;
+	border-bottom: 4px solid #e8e8e8;
+	margin-bottom: 20px;
+}
+section.odd>div.container>div>h2,section.odd>div.container>div>p{
+	text-align: center;
+}
+section.odd>div.container>div>a{
+	margin: 0 auto;
+	display: block;
+	width: 70px;
+}
+div.thumbnail{
+	padding:0;
+}
+div.thumbnail img{
+	height: 240px;
+	min-width: 100%;
+}
+div.caption{
+	height: 240px;
+}
+div.caption h3{
+	text-align: center;
+	padding-bottom: 10px;
+	border-bottom:  2px solid #e8e8e8;
+}
+div.caption p{
+	text-align: center;
+	padding-top: 30px;
+}
+#moist{
+	height: 160px;
+	background: #539d9e;
+	border-bottom: 1px solid white;
+	padding:20px;
+}
+#moist h3,#moist p{
+	color: white;
+}
+#moist a{
+	color: white;
+	display: block;
+	float: right;
+
+}
+#hands{
+	height: 160px;
+	background: #b38259;
+	border-bottom: 1px solid white;
+	padding:20px;
+}
+#hands a{
+	color: white;
+	display: block;
+	float: right;
+}
+#hands h3,#hands p{
+	color: white;
+}
+#trim{
+	height: 160px;
+	background: #b45962;
+	border-bottom: 1px solid white;
+	padding:20px;
+}
+#trim a{
+	color:white;
+	display: block;
+	float: right;
+}
+#trim h3,#trim p{
+	color: white;
+}
+img.hov:hover{
+	cursor:pointer;
+}
+section.even{
+	background: #3c3c3c;
+	color: white;
+	padding: 30px 0;
+}
+section.even div>img{
+	width: 100%;
+	height: 240px;
+	border:12px solid #313131;
+	opacity: 0.4;
+}
+section.even div>img.selected{
+	opacity: 1;
+}
+section.even div>a{
+	color: white;
+	display: block;
+	text-align: center;
+}
+section.even div>h3,section.even div>h2{
+	text-align: center;
+}
+div.contactme>a>img{
+	width:40px;
+	height: 40px;
+	background: white;
+	border-radius: 50%;
+}
+div.contactme{
+	width:150px;
+	margin: 0 auto;
+}
+footer{
+	background: #f5f5f5;
+	padding-top: 40px; 
+	padding-bottom: 40px;
+}
+footer>div>div.row{
+	border-bottom: 2px solid #e8e8e8;
+	padding-bottom: 40px;
+}
+footer>div>div.row img{
+	border-radius: 50%;
+	border:1px solid #dddddd;
+	width: 100px;
+	height: 100px; 
+	display: block;
+	float: right;
+}
+footer>p{
+	padding-top: 20px;
+	text-align: center;
+	color: #ccc;
+}
+@media (min-width: 768px){
+	.navbar {
+		border-radius: 0;
+	}
+	.carousel-indicators{
+		position: absolute;
+		right: 30px;
+		left: 80%;
+
+	}
+	
+}
+@media (min-width: 1020px){
+	.carousel-caption{
+		width: 40%;
+		left: 60%;
+		right: 0;
+		top: 40px;
+		padding: 0 60px;
+		text-align: left;
+	}
+	.carousel-inner>.item>img{
+		min-width: 60%;
+		height: 500px;
+	}
+}

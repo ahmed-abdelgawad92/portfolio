@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ahmed's Portfolio</title>
+    <link rel="icon" href="images/icon.png" type="image/gif" />
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Yanone+Kaffeesatz" rel="stylesheet"> <!-- font-family: 'Yanone Kaffeesatz', sans-serif; -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body data-spy="scroll" data-target="#navnav" data-offset="70">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navnav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><span class="a">A</span>hmed<br />bdelgawad</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav-menu">
+          <ul class="navbar-nav">
+            <li class="nav-link"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-link"><a href="#aboutme" class="nav-link">About me</a></li>
+            <li class="nav-link"><a href="#mywork" class="nav-link">My Work</a></li>
+            <li class="nav-link"><a href="#certi" class="nav-link">Certifications</a></li>
+            <li class="nav-link"><a href="#contact" class="nav-link">Contact me</a></li>
+            <li class="nav-link"><a href="cv.html" class="nav-link">CV</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div style="position:relative" id="home">
+      <img src="me.png" alt="" class="w-100" id="photo">
+      <div class="home container">
+        <h4>I'm &nbsp;&nbsp;<span class="fullname">Ahmed Abdelgawad</span></h4>
+        <h4>A Web Developer / Designer</h4>
+        <h4 class="quote">Favourite Quote :</h4>
+        <pre>
+    while ( noSuccess() ) {
+        tryAgain();
+        if(dead)
+            break;
+    }
+        </pre>
+      </div>
+    </div>
+    <main>
+      <section id="aboutme">
+        <div class="container">
+          <div class='heading'>
+            <span class="heading">About Me</span>
+          </div>
+          <blockquote class="blockquote text-center">
+            <p class="mb-0 mx-3">I come from Egypt and I live in Hamburg, Germany since september 2016. it was hard at the beginning to start my web development career in Germany due to the language,
+            but here I'm back again with a fresh start and ready for a new challenge in my life and my German now is so much better than before.</p>
+            <p class="mb-0 mx-3">I've graduated from the Faculty of Computers and Information in Assiut University in Egypt at 2015. I got the Bachelor's Degree of Information Systems with Good grade.
+            after that I started my career as Freelancer and I've done some projects to my friends. In 2016 I made a system to a construction company,
+            I've developed this system with <a href="https://laravel.com">Laravel</a> "A&nbsp;Great MVC PHP Framework" , this was for back-end.
+            In front-end I've worked with HTML 5, CSS, Javascript, <a href="http://jquery.com">jQuery</a> and <a href="http://getbootstrap.com/docs/4.1/getting-started/introduction/">Boootstrap 4</a>.
+            This System handles all the procedures of constructing Buildings by this company. it was full responsive from design.</p>
+            <p class="mb-0 mx-3">At April 2018 I started a PHP Web Development Course AKA "Weiterbildung In German" in <a href="https://www.cbw-weiterbildung.de">CBW</a>.</p>
+            <p class="mb-0 mx-3">At end of May 2018, I started building a Dentist Clinic Information System for a Dentist in Egypt, it handles everything from creating Patients, Diagnosis, Appointments and Payments.
+            Skills Applied: <a href="https://laravel.com">Laravel</a>, HTML 5, CSS, Javascript, <a href="http://jquery.com">jQuery</a>, AJAX and <a href="http://getbootstrap.com/docs/4.1/getting-started/introduction/">Boootstrap 4</a>.</p>
+            <p class="mb-0">“ I'm a web developer, who finds his own passion in coding new softwares and learning new techs. ”</p>
+            <footer class="blockquote-footer">Ahmed Abdelgawad <cite title="Source Title">Software Developer</cite></footer>
+            <p class="text-center"><a href="certification/ahmed_abdelgawad_lebenslauf.php" class="btn btn-green">Download My CV <span class="glyphicon glyphicon-download"></span></a></p>
+          </blockquote>
+        </div>
+      </section>
+      <section id="mywork">
+        <div class="container">
+          <div class='heading'>
+            <span class="heading">My Work</span>
+          </div>
+          <ul class="nav justify-content-center tab">
+            <li class="nav-item">
+              <a class="nav-link active" data-project="all" href="#">All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-project="laravel" href="#">Laravel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-project="php" href="#">PHP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-project="psdToHtml" href="#">PSD to HTML</a>
+            </li>
+          </ul>
+          <div class="row mt-3">
+            <div class="col-12 col-sm-6 col-md-4 projects" data-project="laravel">
+              <a href="projects/dentist_clinic"><div id="gad_clinic" class="mywork" alt=""></div></a>
+              <p class="mywork text-center">Gad Dental Clinics <span class="badge badge-light">Laravel</span></p>
+              <p style="color:white" class="text-center">Skills Applied <span class="badge badge-light">HTML</span> <span class="badge badge-light">CSS</span> <span class="badge badge-light">Bootstrap</span> <span class="badge badge-light">Javascript</span> <span class="badge badge-light">jQuery</span> <span class="badge badge-light">AJAX</span> <span class="badge badge-light">PHP</span> <span class="badge badge-light">MySQL</span></p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 projects" data-project="php">
+              <a href="projects/movie.mp4" id="show_video"><div id="graduation_project" class="mywork" alt=""></div></a>
+              <p class="mywork text-center">Graduation Project <span class="badge badge-light">PHP</span></p>
+              <p style="color:white" class="text-center">Skills Applied <span class="badge badge-light">HTML</span> <span class="badge badge-light">CSS</span> <span class="badge badge-light">Bootstrap</span> <span class="badge badge-light">Javascript</span> <span class="badge badge-light">jQuery</span> <span class="badge badge-light">MySQL</span></p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 projects" data-project="psdToHtml">
+              <a href="projects/egoist"><div id="egoist" class="mywork" alt=""></div></a>
+              <p class="mywork text-center">Egoist <span class="badge badge-light">PSD to HTML</span></p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 projects" data-project="psdToHtml">
+              <a href="projects/insight"><div id="insight" class="mywork" alt=""></div></a>
+              <p class="mywork text-center">Insight <span class="badge badge-light">PSD to HTML</span></p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 projects" data-project="psdToHtml">
+              <a href="projects/webington"><div id="webington" class="mywork" alt=""></div></a>
+              <p class="mywork text-center">Webington <span class="badge badge-light">PSD to HTML</span></p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 projects" data-project="psdToHtml">
+              <a href="projects/Wedding"><div id="wedding" class="mywork" alt=""></div></a>
+              <p class="mywork text-center">Wedding <span class="badge badge-light">PSD to HTML</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="certi">
+        <div class="container">
+          <div class='heading'>
+            <span class="heading">Certifications</span>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="images/aua2.png" data-pdf="certification/bachelor.pdf" class="certi" alt="">
+              <p class="text-center">Bachelor Certification</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="images/aua2.png" data-pdf="certification/noten.pdf" class="certi" alt="">
+              <p class="text-center">Bachelor Grades</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="images/anerkennung.png" data-pdf="certification/anerkannte-zertifikat.pdf" class="certi" alt="">
+              <p class="text-center">Anerkannter Zeugnis</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="images/micro.png" data-pdf="certification/microsoft.pdf" class="certi" alt="">
+              <p class="text-center">Microsoft Web Development Certification</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="images/deutsch.png" data-pdf="certification/deutsch.pdf" class="certi" alt="">
+              <p class="text-center">B1 Deutsch Zertifikat</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+              <img src="images/eingliederung.png" data-pdf="certification/Eingliederung.pdf" class="certi" alt="">
+              <p class="text-center">Eingliederungzuschuss für Arbeitgeber</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <div class='heading'>
+            <span class="heading">Contact Me</span>
+          </div>
+          <blockquote class="blockquote text-center">
+            <p class="mb-0">You can reach me anytime through the following</p>
+            <p style="margin-bottom:50px" class="contact">
+              <img src="images/telephone.png" class="contact" alt=""> +49 159 01389074
+              <img src="images/whats.png" class="contact" alt=""> +49 157 72972079
+              <img src="images/email.png" class="contact" alt=""> ahmed.elkayaty92@gmail.com
+            </p>
+            <a href="https://www.linkedin.com/in/ahmed-abdelgawad-547727168/"><img src="images/linkedin.png" class="" alt=""></a>
+            <a href="https://www.facebook.com/ahmed.elkayaty"><img src="images/fb.png" class="contact" alt=""></a>
+            <a href="https://plus.google.com/u/0/114830546087341606740"><img src="images/google.png" class="contact" alt=""></a>
+          </blockquote>
+          <footer class="footer">
+              <p>Copyright &copy; 2018 &nbsp;&nbsp;<span class="quote">Ahmed Abdelgawad</span></p>
+          </footer>
+        </div>
+      </section>
+    </main>
+    <div class="display_video">
+      <div class="bg-black">
+        <span class="close">&times;</span>
+        <video src="" controls id="play_video"></video>
+        <iframe src="" id="pdf"></iframe>
+      </div>
+    </div>
+  </body>
+</html>

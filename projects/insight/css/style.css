@@ -1,0 +1,147 @@
+.navbar-default .navbar-nav>li>a{
+	color:white;
+}
+.navbar-default .navbar-nav>li{
+	border-left:1px solid #2c323d;
+	border-right:1px solid #2c323d;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: white;
+	background: #121519;
+}
+.navbar-default{
+	background: #1b1e25;
+}
+.navbar-default .navbar-brand{
+	color: white;
+	font-size: 25px;
+}
+.navbar-default .navbar-brand span{
+	color: #777;
+	font-size: 14px;
+	padding-left: 8px;
+	font-style: italic;
+	margin-top: -5px;
+}
+.navbar{
+	border: 0;
+	border-radius: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+header img{
+	margin-top: 50px;
+	position: relative;
+	width: 100%;
+	height: 500px;
+	z-index: -2;
+}
+#sign{
+	position: absolute;
+	top: 120px;
+	right: 0;
+	left: 0;
+	z-index: -1;
+}
+#sign div form input{
+	background: rgba(255,255,255,0.6);
+	margin-bottom: 5px;
+}
+#sign div form input[type=text]:focus{
+	background: white;
+	border:2px solid white;
+}
+#sign div form input[type=password]:focus{
+	background: white;
+	border:3px solid white;
+}
+#sign div form p{
+	color: white;
+	font-size: 14px;
+	margin-top: 20px; 
+}
+#sign div form button{
+	width: 120px;
+	height: 45px;
+	border-bottom: 5px solid #d3392a;
+}
+#sign div div h2{
+	font-weight: bolder;
+}
+#sign div div p{
+	color: white;
+}
+section{
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+#service div img{
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 30px;
+}
+#service{
+	margin-bottom: 40px;
+}
+#service div hr{
+	border:0;
+	height: 10px;
+	background: #ededed;
+	position: absolute;
+	top: 60px;
+	right: 30px;
+	left: 30px;
+	z-index: -1;
+}
+#service div h3{
+	text-indent: 20px;
+	padding-bottom: 20px;
+}
+#service div p{
+	padding-left: 20px;
+	color: #b0b5ba;
+}
+a.btn-info{
+	margin-left: 20px;
+	padding: 10px 20px;
+	border-bottom: 4px solid #3f89ba;
+}
+hr{
+	border:0;
+	height: 10px;
+	background: #ededed;
+}
+#more h2{
+	color: #b0b5ba;
+	margin-left: 20px;
+}
+#more h2 a{
+	color: red;
+}
+#more h2 a:hover{
+	cursor: pointer;
+}
+footer{
+	background: url(../images/4.png);
+	color: gray;
+	padding: 30px 0;
+}
+footer h4{
+	color: white;
+}
+footer ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+footer ul li{
+	margin: 0;
+	padding: 0;
+}
+footer a{
+	color: gray;
+}

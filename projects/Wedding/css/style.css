@@ -1,0 +1,156 @@
+@font-face{
+	font-family: "lobster";
+	src :url("../../fonts/lobster/Lobster-Regular.ttf");
+}
+body{
+	font-family: "lobster";
+	background: #f2f2f2;
+}
+#header{
+	height: 200px;
+	background: #e73356;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+.navbar-centered .nav > li > a{
+	color: white;
+	font-size: 20px;
+}
+.navbar-centered .nav > li > a:hover{
+	color: #e73356;
+	background: white;
+}
+.navbar-default{
+	background: none;
+	border: 0;
+}
+.navbar{
+	border: 0;
+	border-radius: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+}
+@media (max-width: 990px){
+	.nav>li>a {
+		background: #e73356;
+		text-align: center;
+	}
+	.navbar-default .navbar-toggle .icon-bar{
+		background: white;
+	}
+	.navbar-nav{
+		margin: 0;
+	}
+	#welcome .padder img{
+		margin: 0 auto;
+		max-width: 150px;
+		min-height: 150px;
+		clear: both;
+	}
+}
+@media (min-width: 992px) {
+    .navbar-centered .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+    .navbar-centered .navbar-nav > li {
+        float: none;
+    }
+    .navbar-centered .nav > li {
+        display: inline;
+    }
+    .navbar-centered .nav > li > a {
+        display: inline-block;
+    }
+    #welcome .padder img{
+		min-height: 150px;
+	}
+}
+section{
+	background: white;
+	padding-bottom: 30px;
+}
+#intro{
+	margin-top: 50px;
+	border-top: 3px solid #eba2ad;
+	padding-bottom: 50px;
+}
+#intro h1,#intro h6{
+	text-align: center;
+	padding-bottom: 20px;
+	color: #808080;
+}
+#intro h1{
+	font-size: 50px;
+}
+#intro .padder img{
+	border:12px solid #e7e6ec;
+	border-radius: 6px;
+}
+div.padder{
+	width: 95%;
+	margin: 0 auto;
+}
+div.background{
+	background: white;
+}
+#welcome .padder h2{
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 8px;
+}
+#welcome .padder h2 span{
+	color: #e94e78;
+}
+#welcome .padder h3{
+	color: #e94e78;
+}
+#welcome .padder a{
+	float: right;
+	background: #e94e78;
+	color: white;
+	border-radius: 20px;
+}
+#welcome .padder a:hover{
+	background: white;
+	color: #e94e78;
+}
+#services h3{
+	color: white;
+	background: #e94e78;
+	padding: 10px 20px;
+	text-align: center;
+	border-radius: 5px;
+}
+#services h3 a{
+	color: white;
+}
+#services{
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 20px;
+}
+#last-section h3{
+	margin-bottom: 30px;
+}
+#last-section a{
+	color: #e94e78;
+	cursor: pointer;
+}
+#tweet{
+	width: 80%;
+	margin: 0 auto;
+	border:2px solid gray;
+	border-radius: 8px;
+	padding: 5px;
+}
+footer{
+	text-align: center;
+	color: #9b9b9b;
+	padding:30px;
+	border-bottom: 2px dashed #9b9b9b;
+}

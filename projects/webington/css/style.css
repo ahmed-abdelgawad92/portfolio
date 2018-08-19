@@ -1,0 +1,87 @@
+.navbar-brand{
+	font-size: 25px;
+}
+header{
+	color: white;
+}
+.navbar-default .navbar-brand,.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #5e5e5e;
+}
+.navbar{
+	border: 0;
+	border-top: 3px solid red;
+	border-radius: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	background: rgba(0,0,0,0.7);
+}
+span.subhead{
+	font-size: 12px;
+	float: left;
+	margin-top: 10px;
+}
+
+.carousel-inner>.item>img{
+	min-width: 100%;
+	height: 500px;
+}
+.carousel-caption{
+	text-align: left;
+}
+.carousel-caption h1 span{
+	background: red;
+	box-shadow: 4px 4px 4px black;
+	display: inline-block;
+	margin-bottom: 5px; 
+}
+section{
+	margin-top: 25px; 
+}
+.profile p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.profile span{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	margin-top: 10px;
+	color: red;
+}
+.profile p.description{
+	font-size: 16px;
+	font-weight: 500;
+}
+@media (min-width: 768px){
+.profile img{
+	width: 75%;
+	margin: 0 auto;
+	display: block;
+	height: auto;
+}
+.profile ul{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+}
+@media (max-width: 767px){
+	.profile img{
+		margin: 0 auto;
+		display: block;
+	}
+	.profile ul{
+		width: 60%;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+}

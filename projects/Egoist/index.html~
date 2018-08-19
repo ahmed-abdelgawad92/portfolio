@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Egoist</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/anim.js"></script>
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target	="#collapse">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+		       		<span class="icon-bar"></span>
+	    		</button>
+				<a href="#" class="navbar-brand">Egoist <span>beauty salon for men</span></a>
+			</div>
+			<div class="collapse navbar-collapse" id="collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a class="selected-item"href="#">home</a></li>
+					<li><a href="#">about us</a></li>
+					<li><a href="#">prices</a></li>
+					<li><a href="#">gallery</a></li>
+					<li><a href="#">contacts</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="carousel slide" id="carousel-example-generic" data-ride="carousel" id="featured">
+		 <ol class="carousel-indicators">
+    		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    		<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  		</ol>
+		<div class="carousel-inner fullheight">
+			<div class="item active">
+				<img src="images/1.jpg">
+				<div class="carousel-caption">
+					<h2>HairCuts</h2>
+					<p>These cuts are making a statement whether short and styled or au naturel. We looked to Elle Medico, men’s grooming expert at Paul Labrecque Salon and Spa for advice on making these trends work for the everyday man - See more at: http://www.mensfitness.com/styleandgrooming/grooming/10-best-new-hairstyles-men#sthash.XZ1pFbBK.dpuf</p>
+					<a href="" class="btn btn-default">More</a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/2.jpg">
+				<div class="carousel-caption">
+					<h2>Manicure & Padicure</h2>
+					<p>Empire to Lawless, the 1920’s Prohibition High-and-Tight has made a strong comeback. This style is trendy, but still masculine enough for the masses. Tom Hardy rocks this look with scruff – maintaining a badass im - See more at: http://www.mensfitness.com/styleandgrooming/grooming/10-best-new-hairstyles-men/slide/2#sthash.XZ1pFbBK.dpuf</p>
+					<a href="" class="btn btn-default">More</a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/3.jpg">
+				<div class="carousel-caption">
+					<h2>New Styles</h2>
+					<p>These cuts are making a statement whether short and styled or au naturel. We looked to Elle Medico, men’s grooming expert at Paul Labrecque Salon and Spa for advice on making these trends work for the everyday man - See more at: http://www.mensfitness.com/styleandgrooming/grooming/10-best-new-hairstyles-men#sthash.XZ1pFbBK.dpuf</p>
+					<a href="" class="btn btn-default">More</a>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/4.jpg">
+				<div class="carousel-caption">
+					<h2>All what you need</h2>
+					<p>These cuts are making a statement whether short and styled or au naturel. We looked to Elle Medico, men’s grooming expert at Paul Labrecque Salon and Spa for advice on making these trends work for the everyday man - See more at: http://www.mensfitness.com/styleandgrooming/grooming/10-best-new-hairstyles-men#sthash.XZ1pFbBK.dpuf</p>
+					<a href="" class="btn btn-default">More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section class="odd">
+	<div class="container">
+		<div>
+			<h2>Experienced Stylists & relaxing atmosphere</h2>
+			<p>Ask your barber to: Keep the sides as short as possible, and fade hair shorter into the nape 	of your neck and sideburns. Leave at least an inch and a half on the top and the edges 			blunt.
+				How to pull it off: Use a gel like Kerastase Homme Capital Force gel to keep hair in place. Put
+			</p>
+			<a href="#" class="btn btn-success">More</a>
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="thumbnail">
+					<img src="images/5.jpg">
+					<div class="caption">
+						<h3>Skin Care</h3>
+						<p>sk your barber to: Keep the sides as short as possible, and fade hair shorter into the nape 	of your neck and sideburns. Leave at least an inch and a half on the </p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail">
+					<div class="caption">
+						<h3>Scalp Massage</h3>
+						<p>sk your barber to: Keep the sides as short as possible, and fade hair shorter into the nape 	of your neck and sideburns. Leave at least an inch and a half on the </p>
+					</div>
+					<img src="images/6.jpg">
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div id="moist">
+					<h3>Moisturize</h3>
+					<p>the nape of your neck and sideburns</p>
+					<a href=""><span class="glyphicon glyphicon-play"></span> more</a>
+				</div>
+				<div id="hands">
+					<h3>Hands & Feet</h3>
+					<p>the nape of your neck and sideburns</p>
+					<a href=""><span class="glyphicon glyphicon-play"></span> more</a>
+				</div>
+				<div id="trim">
+					<h3>Mustache Trim</h3>
+					<p>the nape of your neck and sideburns</p>
+					<a href=""><span class="glyphicon glyphicon-play"></span> more</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="even">
+<div class="container">
+	<h2>Our Staff</h2>
+	<div class="row stuff">
+		<div class="col-md-3 col-sm-6">
+			<img src="images/7.jpg" alt="" class="hov img-circle"><br>
+			<h3>Lisa Morrow</h3>
+			<a href="">More</a>
+		</div>
+		<div class="col-md-3 col-sm-6">
+			<img src="images/9.jpg" alt="" class="hov img-circle"><br>
+			<h3>Liam Kershaw</h3>
+			<a href="">More</a>
+		</div>
+		<div class="col-md-3 col-sm-6">
+			<img src="images/8.jpg" alt="" class="hov img-circle"><br>
+			<h3>Maria Black</h3>
+			<a href="">More</a>
+		</div>
+		<div class="col-md-3 col-sm-6">
+			<img src="images/10.jpg" alt="" class="hov img-circle"><br>
+			<h3>David Smith</h3>
+			<a href="">More</a>
+		</div>
+	</div>
+</div>
+</section>
+<section class="odd">
+	<div class="container">
+		<div>
+			<h2>Connection With us</h2>
+			<p>your barber to: Keep the sides as short as possible, and fade hair shorter into the nape 	of your neck and sideburns. Leave at least an inch and a half on theyour barber to: Keep the sides as short as possible, and fade hair shorter into the nape 	of your neck and sideburns. Leave at least an inch and a half on the</p>
+			<div class="contactme">
+				<a href=""><img src="images/11.png" alt=""></a>
+				<a href=""><img src="images/12.png" alt=""></a>
+				<a href=""><img src="images/13.png" alt=""></a>
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<img src="images/14.png" alt="">
+			</div>
+			<div class="col-md-4">
+				<ul>
+					<li>Here you'll find all of the current </li>
+					<li>vector logo of the Google+ Social</li>
+					<li>ides as short as possibl</li>
+					<li>our barber to: Keep the sides</li>
+				</ul>
+			</div>
+			<div class="col-md-2">
+				<img src="images/15.png" alt="">
+			</div>
+			<div class="col-md-4">
+				<ul>
+					<li>Here you'll find all of the current </li>
+					<li>vector logo of the Google+ Social</li>
+					<li>ides as short as possibl</li>
+					<li>our barber to: Keep the sides</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<p>copyright &copy; 2015 Egoist</p>
+</footer>
+</body>
+</html>
