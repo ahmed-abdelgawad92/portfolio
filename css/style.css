@@ -8,6 +8,12 @@ a:hover{
   color: rgb(75, 162, 75);
   text-decoration: underline;
 }
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
 /************************HEADER**************************/
 .navbar-brand{
   font-family: 'Dancing Script', cursive;
