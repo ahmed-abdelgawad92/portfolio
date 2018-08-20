@@ -61,7 +61,7 @@ header img{
 #sign div form p{
 	color: white;
 	font-size: 14px;
-	margin-top: 20px; 
+	margin-top: 20px;
 }
 #sign div form button{
 	width: 120px;
@@ -144,4 +144,11 @@ footer ul li{
 }
 footer a{
 	color: gray;
+}
+
+
+@media (max-width:500px){
+	#sign{
+		margin-top:-50px;
+	}
 }
