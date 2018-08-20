@@ -46,6 +46,10 @@ $(document).ready(function(){
     $('body').css('overflow','hidden');
   });
   $('.certi').click(function(){
+    if ($(window).width()<500) {
+      window.location.href= $(this).attr('data-pdf');
+      return;
+    }
     $('#pdf').attr('src',$(this).attr('data-pdf'));
     $('#pdf').show();
     $('.display_video').show();
