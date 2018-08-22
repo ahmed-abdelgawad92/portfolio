@@ -1,0 +1,228 @@
+*{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+.bg-dark{
+  background: #23272b!important;
+}
+.logo img{
+  width: 100px;
+  transition: 0.4s all;
+}
+.logo img:hover{
+  opacity: 0.7;
+  transform: scale(1.2);
+  transition: 0.4s all;
+}
+a.active{
+  color: #cc0000 !important;
+}
+#show_list{
+  display: none;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+#landing_img{
+  width: 100%;
+  max-height: 900px;
+  opacity: 0.9;
+}
+.navbar-nav{
+  display: flex;
+}
+#home{
+  background: url(../images/car-front.jpg) center no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  min-height: 750px;
+}
+div.header{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 400px;
+}
+h4.header{
+  font-size: 4rem;
+  color: #000;
+  text-shadow: 1px 1px 10px #fff,-1px -1px 10px #fff;
+}
+.btn-red{
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: 1s all;
+}
+.btn-red:hover{
+  background: whitesmoke;
+  color: #dc3545;
+  transition: 1s all;
+}
+
+/***********************main*************************/
+section{
+  background: #1e1e1e;
+  color: whitesmoke;
+  padding: 60px 10px;
+  max-width: 100%;
+  box-sizing: border-box !important;
+}
+section:nth-of-type(odd){
+  background: #2e2e2e;
+}
+h4.aboutus{
+  border-bottom: 2px solid #cc0000;
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+section h4{
+  font-size: 2.5rem;
+}
+.owner-img{
+  width: 100%;
+  max-width: 350px;
+  background-color: grey !important;
+  border-color: grey !important;
+}
+img.projects{
+  height: 250px;
+}
+h4.projects{
+  border-top: 4px solid #cc0000;
+  border-bottom: 4px solid #cc0000;
+  display: inline-block;
+  padding: 3px 10px;
+  margin: 0 0 40px;
+}
+img.shop{
+  border-radius: 450px;
+  border: 5px solid grey;
+}
+div.blog{
+  position: relative;
+}
+img.blog{
+  width: 100%;
+}
+div.blog-body{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5px 15px 5px;
+  background: rgba(0, 0, 0, 0.7);
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+#map{
+  height: 500px;
+  width: 100%;
+}
+/****************************Footer*************************/
+footer{
+  min-height: 400px;
+  background: url(../images/tef1.jpg) fixed top no-repeat;
+  background-size: cover;
+  margin-top: -5px !important;
+  position: relative;
+}
+div.footer{
+  width: 100%;
+  min-height: 400px;
+  background: rgba(1,1,1,0.75);
+  padding-bottom: 50px;
+}
+div.footer h4{
+  color: whitesmoke;
+}
+div#footer{
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+  color: whitesmoke;
+  text-align: center;
+}
+div#footer a{
+  color: #cc0000;
+}
+#contact-form{
+  color: whitesmoke;
+}
+#contact-form label{
+  text-align: center;
+}
+#msg{
+  resize: none;
+  height: 160px;
+}
+div.social_link{
+  position: relative;
+  margin: 60px 0;
+}
+img.social_link{
+  width: 70px;
+  height: 70px;
+}
+.form-control{
+  background-color: #c1c1c1;
+}
+@media (max-width: 500px){
+  .logo img{
+    width:90px;
+  }
+  .logo{
+    position: absolute;
+    left: 10px !important;
+    top: 15px !important;
+  }
+  #landing_img{
+    margin-top:75px;
+  }
+  #home{
+    margin-top:73px;
+    min-height: 350px !important;
+  }
+  div.header{
+    top: 150px !important;
+  }
+  h4.header{
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 993px){
+  nav{
+    min-height:75px;
+  }
+  .logo{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }
+  #show_list{
+    display: block;
+  }
+  .navbar-nav{
+    width: 100%;
+    display: none;
+  }
+  .navbar-nav:first-of-type{
+    margin-top: 55px;
+  }
+  #home{
+    min-height: 500px;
+  }
+  div.header{
+    top: 250px;
+  }
+  h4.header{
+    font-size: 2.2rem;
+  }
+}
