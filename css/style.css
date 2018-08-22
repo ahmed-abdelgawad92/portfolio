@@ -187,7 +187,8 @@ span.close:hover{
   background: url(../projects/Wedding/wedding.jpg);
 }
 #top_end{
-  background: url(../projects/top_end/top_end.png);
+  background: url(../projects/top_end/top_end.png) center top;
+  background-size: 150% 300%;
 }
 #graduation_project{
   background: url(../projects/clinic.png) no-repeat center;
