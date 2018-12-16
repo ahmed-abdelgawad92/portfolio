@@ -255,7 +255,8 @@ img.certi:hover{
   margin-bottom: 50px;
 }
 div.cv-left{
-  background: rgb(40, 50, 70);
+  background: rgb(168, 187, 222);
+  /* rgb(40, 50, 70); */
   min-height: 1000px!important;
   padding-bottom: 20px;
 }
@@ -265,7 +266,7 @@ div.cv-left{
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   transform: rotate(-20deg);
-  border-top: 20px solid rgb(75 , 170, 195);
+  border-top: 20px solid rgb(40, 50, 70);
   position: relative;
   top:-8px;
   left: -13px;
@@ -275,7 +276,7 @@ img.cv-img{
   width: 75%;
   margin: 30px auto;
   border-radius: 250px;
-  border: 6px solid rgb(75, 170, 195);
+  border: 6px solid rgb(40, 50, 70);
 }
 .cv-head{
   width: 70%;
@@ -294,7 +295,7 @@ div.cv-left-details{
   text-align: right;
 }
 div.cv-left h2{
-  background: rgb(75, 170, 195);
+  background: rgb(40, 50, 70);
   margin-top:;
   margin: 20px -15px 0 -15px;
   padding: 8px 0;
@@ -304,13 +305,13 @@ div.cv-left h2,div.cv-left h3{
   color: white;
 }
 .progress-bar{
-  background: rgb(50,100,130)!important;
+  background: rgb(40, 50, 70)!important;
 }
 .progress{
   margin-top: 7px;
 }
 div.cv-right{
-  background: whitesmoke;
+  background: #e7e9f5;
 }
 .cv-section{
   color: rgb(40, 50, 70);
